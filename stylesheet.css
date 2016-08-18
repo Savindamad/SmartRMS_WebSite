@@ -35,8 +35,8 @@
 
             
             li a:hover{
-                text-decoration:underline;
-                border-bottom-color: deeppink;
+                color: aqua;
+                background:none;
             }
             
             body{
