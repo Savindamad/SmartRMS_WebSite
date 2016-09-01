@@ -1,6 +1,7 @@
 <html>
     <head>
         <title> Maharajah palace </title>
+<<<<<<< HEAD
         <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
         <script src="http://maps.googleapis.com/maps/api/js"></script>
         <script src="js/map.js"></script>
@@ -24,6 +25,50 @@
           </div>
         <!--Home section-->
     <section id="home">
+=======
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            var mycenter=new google.maps.LatLng(6.9057865,79.86031409999998);
+            function initialize() {
+            var mapProp = {
+            center:mycenter,
+            zoom:13,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);    
+            var marker=new google.maps.Marker({
+            position:mycenter,
+            });
+
+            marker.setMap(map);
+            
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </head>
+    <body>
+        <!--header -->
+     <div>
+          <div class="nav-brand" >
+             <a  href="index.html" ><img class="logo" src=logo.png width=20% height=10%/></a>
+             <input class="search-bar" name="search" type="text" placeholder="Search...">
+             <a class="login" href="login/login.html">Login/Register </a>
+              <div class="navbar">
+                  <ul class="nav">
+                      <li><a href="nav/home.html">Home</a> </li>
+                      <li><a href="nav/menu.html">Menu</a> </li>
+                      <li><a href="nav/reservation.html">Reservation</a> </li>
+                      <li><a href="nav/reviews.html">Reviews</a> </li>
+                      <li><a href="nav/promotion.html">Promotion</a> </li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+        <!--Home section-->
+    <section id=home>
+>>>>>>> refs/remotes/origin/master
         <div class="home-content">
             <div>
             <h2 class="align-center"> WELCOME TO MAHARAJA PALACE </h2>
@@ -33,6 +78,7 @@
             </div>
         </div>
         </section>
+<<<<<<< HEAD
         <section>
             <div class="content">
                   <table class="table">
@@ -53,5 +99,53 @@
                     </td>
                 </table>
         </section>
+=======
+        <section id=news>
+            <div class="content">
+                <div><table>
+                        <tr><td  colspan=3 align="center">Contact Info</td></tr>
+                        <tr><td>The Maharaja place</td></tr>
+                        <tr><td>1A,Rajakeeya Mawatha,Colombo-07</td></tr>
+                        <tr><td>Telephone:011 4 886000</td></tr>
+                        <tr><td>Email:maharajaplacecolombo@gmail.com</td></tr>
+                </table> </div>  
+                <div class="map">
+                <h4>Our Location </h4>
+            <div id="googleMap" style="width:450px;height:400px;"></div>
+                </div>
+            </div> 
+        </section>
+            <section id="res">
+                <div class="content">
+                    <div>
+                      <h2 align="center">reservation part</h2>
+                            <div class="rest">
+                        <ul class="res">
+                            <li class="dropdown"><a class="dropdwn" href=#table>Table</li>
+                                <div class="dropdown-content">
+                                    <a href=#table1> Table1 </a>
+                                    <a href=#table2> Table2 </a>
+                                    <a href=#table3> Table3 </a>
+                                    </div>
+                            <li><a href=#preorder>Orders</li>
+                            <li><a href=#food>food</li></li>
+                            </ul>
+                            </div>
+                     </div>
+                        <br>
+                        <br>
+                <div>
+                    <p>check your reversation</p> 
+                    </div>
+                    
+                </section>
+                
+                <section>
+                    <div>
+                        
+                    </div>
+                </section>
+        
+>>>>>>> refs/remotes/origin/master
     </body>
 <html>

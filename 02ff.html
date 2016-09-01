@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Food Order Form</title>
+</head>
+<body>
+<div id="fof">
+	<div>
+		<h1>Smart RMS</h1> 
+		<h4>Food Order Form</h4> 
+	</div>
+
+		   <form method="post" action="/">
+
+			<div>
+  			  <label for="orderid">
+		      	<span class="required">Order ID: *</span> 
+		      	<input type="text" id="orderid" name="orderid" value="" placeholder="Order ID" required="required"/>
+		      </label> 
+			</div>
+
+			<div>
+		      <label for="name">
+		      	<span>Name of the Customer:</span> 
+		      	<input type="text" id="name" name="name" value="" placeholder="Name of the Customer" tabindex="1" autofocus="autofocus" />
+		      </label> 
+			</div>
+
+			<div>
+		      <label for="contactnumber">
+		      	<span>Contact Number:</span>
+		      	<input type="text" size="10" id="contactnumber" name="contactnumber" value="" placeholder="0771234567" tabindex="1"/>
+		      </label>  
+			</div>
+
+			<div>		          
+		      <label for="Meal">
+		      <span>Select the Meal Type: </span>
+			      <select id="meal" name="meal" tabindex="4">   
+			         <option value="1">Meal Type 01</option>
+			         <option value="2">Meal Type 02</option>  
+			         <option value="3">Meal Type 03</option>
+			      </select>
+		      </label>
+			</div>
+
+			<div>
+			<label for="Meal Size">
+			<span>Select the meal size:</span> <br>
+				<input type="radio" name="size" value="large"> Large<br>
+  				<input type="radio" name="size" value="small"> Small<br>
+  			</label>
+			</div>
+
+			<div>
+		      <label for="amount of dishes">
+		      	<span>Amount of dishes:</span>
+		      	<input type="text" id="amount of dishes" name="amount of dishes" value="" placeholder="0"/>
+		      </label>  
+			</div>
+
+			<div>		           
+		      <button name="submit" type="submit" id="submit" >SEND</button>		           
+		      <button name="cancel" type="cancel" id="cancel" >CANCEL</button> 
+			</div>
+
+		   </form>
+
+	</div>
+</body>
+</html>
