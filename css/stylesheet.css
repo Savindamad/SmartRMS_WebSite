@@ -90,9 +90,6 @@
                 position:relative;
             }
             
-            .align-center{
-                text-align: center;
-            }
 
 
 /* home_section */
@@ -116,9 +113,9 @@
             
             
             .text-align {
-                margin-top: 300px;
+                margin-top: 400px;
                 margin-left:60px;
-                font-size: 50px;
+                font-size: 55px;
                 
             }
             
@@ -129,7 +126,7 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
-                font-family: 'Bree Serif', serif;
+                font-family: 'Montez',cursive;
                 font-style: bold;
                 color: white;
                 border-bottom: 2px solid gold;
@@ -186,7 +183,7 @@
             #res {
                 height: 900px;
                 padding:10px;
-                background-image: url(../img/reservation.png);
+                background-image: url(../img/tables.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
@@ -236,7 +233,7 @@
             #menu {
                 height: 900px;
                 padding:10px;
-                background-image: url(../img/menu.png);
+                background-image: url(../img/menumain.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-attachment: fixed;
@@ -325,7 +322,7 @@
             #promo {
                 height: 900px;
                 padding:10px;
-                background-image: url(../img/promo.png);
+                background-image: url(../img/prom.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-attachment: fixed;
@@ -340,7 +337,7 @@
             #reviews {
                 height: 900px;
                 padding:10px;
-                background-image: url(../img/review.png);
+                background-image: url(../img/writereview.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
